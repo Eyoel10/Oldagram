@@ -1,5 +1,75 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 13px;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+#container {
+  background-color: white;
+  color: black;
+  width: 375px;
+  margin: 0 auto;
+  padding-bottom: 3px;
+}
+
+.post-div {
+  background-color: #c6c6c6;
+  height: 25px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.logo {
+  width: 137px;
+}
+
+.post {
+  width: 375px;
+}
+
+.icon {
+  width: 26px;
+  margin-right: 10px;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-id p {
+  line-height: 3px;
+}
+
+.font-weight700 {
+  font-weight: 700;
+}
+
+.font-size12 {
+  font-size: 12px;
+}
+
+.post-body {
+  margin: 10px 21px 0px 16px;
+}
